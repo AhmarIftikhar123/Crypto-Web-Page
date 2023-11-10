@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Big+Shoulders+Display:wght@300&family=DM+Sans:ital,opsz,wght@1,9..40,200&family=Epilogue&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@200&family=Inter:wght@200&family=Josefin+Sans:wght@200;300&family=Kumbh+Sans:wght@300;400&family=League+Spartan&family=Lexend+Deca:wght@300;400&family=Libre+Franklin:wght@200&family=Open+Sans&family=Outfit:wght@200&family=Overpass:wght@600&family=Plus+Jakarta+Sans:wght@200&family=Poppins:wght@200;300&family=Red+Hat+Display&family=Roboto:wght@300&family=Rubik:wght@300&family=Space+Mono:wght@700&family=Ubuntu:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: url(imgs/background.png) center top no-repeat;
+  background-size: cover;
+}
+main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 4%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.8rem;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  list-style: none;
+}
+ul li {
+  padding: 4px 5px;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: opacity 0.2s ease-in;
+}
+ul li a:hover,
+.lag_btn:hover {
+  opacity: 0.8;
+}
+.lag_btn {
+  padding: 6px 1.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid #fff;
+}
+.logo img {
+  width: 4rem;
+}
+.content {
+  color: #fff;
+  position: absolute;
+  top: 25%;
+}
+h1.heading {
+  font-size: 5rem;
+  line-height: 6rem;
+}
+p.details {
+  margin-top: 0.7rem;
+  letter-spacing: 0.01rem;
+  font-size: 1.1rem;
+}
+.more {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: orange;
+  color: #fff;
+  transition: opacity 0.3s ease-in;
+  margin-top: 1.5rem;
+}
+.more:hover {
+  opacity: 0.7;
+}
+.currency_info {
+  color: #fff;
+  display: flex;
+  gap: 1.8rem;
+  align-items: center;
+  position: absolute;
+  bottom: 2%;
+  right: 10%;
+}
+.coin_box img {
+  width: 2rem;
+}
+.coin_box {
+  padding: 16px 25px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.coin_box span {
+  display: block;
+}
+.coin_box p {
+  font-size: 1rem;
+}
+.coin_box .orange {
+  font-size: 0.6em;
+  color: orange;
+}
